@@ -6,8 +6,10 @@
 
 ## TO ACCESS THIS REPO, DO THE FOLLOWING
 
-CLONE THIS REPO :
-`git clone https://github.com/GoitsemangLebane/Django-ReacttJS-Blog-Website.git`
+CLONE THIS REPO 
+```
+git clone https://github.com/GoitsemangLebane/Django-ReacttJS-Blog-Website.git
+```
 
 # make sure you have the **PYTHON** AND **NODEJS & NPM** installed in your system to be able to run this project.
 
