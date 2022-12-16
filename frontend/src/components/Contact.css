@@ -1,0 +1,95 @@
+* {
+  margin-left: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Inter", sans-serif;
+}
+
+.app {
+  width: 400px;
+  margin: 0 auto;
+  height: 100vh;
+  
+}
+
+/* Contact.js */
+.form {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left:150px;
+  margin-right:270px;
+}
+
+.form > h1 {
+  margin-bottom: 30px;
+}
+
+.form > input,
+textarea {
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); 
+  margin-bottom: 20px;
+  border: 1px solid lightgray;
+  border: none;
+  background: #fff;
+  font-size: 16px;
+  color: rgb(0, 0, 32);
+  outline: none;
+  margin-right:270px;
+}
+
+.form > input:focus,
+textarea:focus {
+  border: 1px solid rgb(0, 0, 196);
+}
+
+.form > textarea {
+  height: 150px;
+  max-width: 1000x;
+  min-height: 100px;
+}
+
+.form > label {
+  padding-bottom: 2px;
+  color: rgb(0, 0, 32);
+  font-weight: bold;
+  margin-left:10px
+}
+
+.form > button {
+  padding: 2px;
+  border: none;
+  background-color: rgb(2, 2, 110);
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+  margin-top: 10px;
+  
+}
+
+.form > button:hover {
+  background-color: rgb(0, 0, 196);
+}
+
+@media screen and (max-width: 960px) {
+	.form {
+		margin-left:10px;
+		margin-right:5px;
+		height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+	}
+}
