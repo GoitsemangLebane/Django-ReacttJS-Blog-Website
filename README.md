@@ -2,6 +2,12 @@
 
 ###### This is a blog website With a Django backend, using Postgresql as a database using the the cloud platform, Railway.app for hosting. The frontend is made up of React.js with Django Rest APIS used to connect the backend to the frontend.
 
+#### The project *BLOG_INTERVIEW* has two apps istalled
+```
+-Blog ( for the blog features)
+-users (for user signup, login & authentication)
+```
+
 
 ### THE WEBSITE ENTAILS
 ```
